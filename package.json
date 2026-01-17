@@ -1,0 +1,17 @@
+{
+  "name": "parallel-zk-playground",
+  "version": "1.0.0",
+  "description": "Parallel ZK Proof Batch Verification Demo on Monad Testnet",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "compile": "pnpm --filter contracts compile",
+    "deploy:testnet": "pnpm --filter contracts deploy:testnet",
+    "deploy:kyc:testnet": "pnpm --filter contracts deploy:kyc:testnet",
+    "demo:batch": "pnpm --filter contracts demo:batch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}

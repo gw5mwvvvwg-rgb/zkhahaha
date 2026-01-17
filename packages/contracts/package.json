@@ -1,0 +1,24 @@
+{
+  "name": "@parallel-zk-playground/contracts",
+  "version": "1.0.0",
+  "description": "Parallel ZK Playground Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network monadTestnet",
+    "deploy:kyc:testnet": "hardhat run scripts/deploy_kyc.ts --network monadTestnet",
+    "demo:batch": "hardhat run scripts/batchDemo.ts --network monadTestnet"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "hardhat": "^2.19.4",
+    "https-proxy-agent": "^7.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

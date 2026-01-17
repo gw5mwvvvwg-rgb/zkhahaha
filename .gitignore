@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+out/
+
+# Next.js
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+.env
+.env.local
+.env*.local
+
+# PNPM config (可选，根据团队需求决定是否提交)
+# .npmrc
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
