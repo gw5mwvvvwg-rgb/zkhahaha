@@ -454,7 +454,7 @@ pnpm deploy:testnet  # 重新部署
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request！
+@ninglinLiu 主要贡献，欢迎提交 Issue 和 Pull Request！
 
 ## 📄 许可证
 
